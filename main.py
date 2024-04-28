@@ -57,7 +57,8 @@ def add_text_watermark_single_image(input_image_path, output_image_path, text, f
 
     image = image.convert("RGB")
     # 保存带有水印的图片
-    image.save(output_image_path, quality=90)
+    image.save(output_image_path, quality=100)
+
 
 def browse_input_folder():
     folder_path = filedialog.askdirectory()
